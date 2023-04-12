@@ -1,0 +1,28 @@
+galaxy_info:
+  author: Alex Ackerman
+  description: Installs the NGINX Web Server
+  company: Korea Battle Simulation Center
+
+  # issue_tracker_url: http://example.com/issue/tracker
+
+  license: MIT
+
+  min_ansible_version: '2.10'
+
+  platforms:
+    - name: EL
+      versions:
+        - "all"
+    - name: Ubuntu
+      versions:
+        - "all"
+    - name: Amazon
+      versions:
+        - "all"
+
+  galaxy_tags:
+    - nginx
+    - web
+    - server
+
+dependencies: []
